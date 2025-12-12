@@ -1,4 +1,4 @@
-import { Mail, MapPin, Linkedin, Send } from "lucide-react";
+import { Mail, MapPin, Phone, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -23,20 +23,20 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "lucinanoel@email.com",
-      href: "mailto:lucinanoel@email.com",
+      value: "lucinanoel9@gmail.com",
+      href: "mailto:lucinanoel9@gmail.com",
+    },
+    {
+      icon: Phone,
+      label: "Phone",
+      value: "+1 (561) 412-7837",
+      href: "tel:+15614127837",
     },
     {
       icon: MapPin,
       label: "Location",
       value: "Pennsylvania, USA",
       href: null,
-    },
-    {
-      icon: Linkedin,
-      label: "LinkedIn",
-      value: "Connect with me",
-      href: "#",
     },
   ];
 
