@@ -21,17 +21,11 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-up opacity-0 stagger-4">
               <a
-                href="#projects"
+                href="#contact"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body font-medium rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
               >
-                View My Work
-                <ArrowDown size={18} />
-              </a>
-              <a
-                href="#contact"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-secondary text-secondary-foreground font-body font-medium rounded-lg border border-border transition-all duration-300 hover:bg-accent hover:-translate-y-1"
-              >
                 Get In Touch
+                <ArrowDown size={18} />
               </a>
             </div>
           </div>
